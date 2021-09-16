@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	. "github.com/xtls/xray-core/common/retry"
+	"github.com/qxray-app/xray-core/common"
+	"github.com/qxray-app/xray-core/common/errors"
+	. "github.com/qxray-app/xray-core/common/retry"
 )
 
 var (

@@ -1,6 +1,6 @@
 package encoding
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/qxray-app/xray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -9,16 +9,16 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/proxy/vless"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/qxray-app/xray-core/common/buf"
+	"github.com/qxray-app/xray-core/common/errors"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/common/protocol"
+	"github.com/qxray-app/xray-core/common/session"
+	"github.com/qxray-app/xray-core/common/signal"
+	"github.com/qxray-app/xray-core/features/stats"
+	"github.com/qxray-app/xray-core/proxy/vless"
+	"github.com/qxray-app/xray-core/transport/internet"
+	"github.com/qxray-app/xray-core/transport/internet/xtls"
 )
 
 const (

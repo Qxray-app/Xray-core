@@ -3,9 +3,9 @@ package udp
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/qxray-app/xray-core/common"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/transport/internet"
 )
 
 func init() {

@@ -1,12 +1,12 @@
 package xtls
 
 import (
-	xtls "github.com/xtls/go"
+	xtls "github.com/qxray-app/go"
 
-	"github.com/xtls/xray-core/common/net"
+	"github.com/qxray-app/xray-core/common/net"
 )
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/qxray-app/xray-core/common/errors/errorgen
 
 type Conn struct {
 	*xtls.Conn

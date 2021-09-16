@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/common/strmatcher"
+	"github.com/qxray-app/xray-core/common"
+	. "github.com/qxray-app/xray-core/common/strmatcher"
 )
 
 func BenchmarkDomainMatcherGroup(b *testing.B) {

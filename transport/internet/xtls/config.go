@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	xtls "github.com/xtls/go"
+	xtls "github.com/qxray-app/go"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/ocsp"
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/common/protocol/tls/cert"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/common/ocsp"
+	"github.com/qxray-app/xray-core/common/platform/filesystem"
+	"github.com/qxray-app/xray-core/common/protocol/tls/cert"
+	"github.com/qxray-app/xray-core/transport/internet"
 )
 
 var (

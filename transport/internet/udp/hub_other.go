@@ -3,7 +3,7 @@
 package udp
 
 import (
-	"github.com/xtls/xray-core/common/net"
+	"github.com/qxray-app/xray-core/common/net"
 )
 
 func RetrieveOriginalDest(oob []byte) net.Destination {

@@ -12,11 +12,11 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/qxray-app/xray-core/common"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/common/session"
+	"github.com/qxray-app/xray-core/transport/internet"
+	"github.com/qxray-app/xray-core/transport/internet/tls"
 )
 
 //go:embed dialer.html

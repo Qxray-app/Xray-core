@@ -8,26 +8,26 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/protocol/tls/cert"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/uuid"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/proxy/dokodemo"
-	"github.com/xtls/xray-core/proxy/freedom"
-	"github.com/xtls/xray-core/proxy/vmess"
-	"github.com/xtls/xray-core/proxy/vmess/inbound"
-	"github.com/xtls/xray-core/proxy/vmess/outbound"
-	"github.com/xtls/xray-core/testing/servers/tcp"
-	"github.com/xtls/xray-core/testing/servers/udp"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/grpc"
-	"github.com/xtls/xray-core/transport/internet/http"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/websocket"
+	"github.com/qxray-app/xray-core/app/proxyman"
+	"github.com/qxray-app/xray-core/common"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/common/protocol"
+	"github.com/qxray-app/xray-core/common/protocol/tls/cert"
+	"github.com/qxray-app/xray-core/common/serial"
+	"github.com/qxray-app/xray-core/common/uuid"
+	core "github.com/qxray-app/xray-core/core"
+	"github.com/qxray-app/xray-core/proxy/dokodemo"
+	"github.com/qxray-app/xray-core/proxy/freedom"
+	"github.com/qxray-app/xray-core/proxy/vmess"
+	"github.com/qxray-app/xray-core/proxy/vmess/inbound"
+	"github.com/qxray-app/xray-core/proxy/vmess/outbound"
+	"github.com/qxray-app/xray-core/testing/servers/tcp"
+	"github.com/qxray-app/xray-core/testing/servers/udp"
+	"github.com/qxray-app/xray-core/transport/internet"
+	"github.com/qxray-app/xray-core/transport/internet/grpc"
+	"github.com/qxray-app/xray-core/transport/internet/http"
+	"github.com/qxray-app/xray-core/transport/internet/tls"
+	"github.com/qxray-app/xray-core/transport/internet/websocket"
 )
 
 func TestSimpleTLSConnection(t *testing.T) {
@@ -612,7 +612,7 @@ func TestGRPC(t *testing.T) {
 						TransportSettings: []*internet.TransportConfig{
 							{
 								ProtocolName: "grpc",
-								Settings:     serial.ToTypedMessage(&grpc.Config{ServiceName: "🍉"}),
+								Settings:     serial.ToTypedMessage(&grpc.Config{ServiceName: ""}),
 							},
 						},
 						SecurityType: serial.GetMessageType(&tls.Config{}),
@@ -681,7 +681,7 @@ func TestGRPC(t *testing.T) {
 						TransportSettings: []*internet.TransportConfig{
 							{
 								ProtocolName: "grpc",
-								Settings:     serial.ToTypedMessage(&grpc.Config{ServiceName: "🍉"}),
+								Settings:     serial.ToTypedMessage(&grpc.Config{ServiceName: ""}),
 							},
 						},
 						SecurityType: serial.GetMessageType(&tls.Config{}),
@@ -730,7 +730,7 @@ func TestGRPCMultiMode(t *testing.T) {
 						TransportSettings: []*internet.TransportConfig{
 							{
 								ProtocolName: "grpc",
-								Settings:     serial.ToTypedMessage(&grpc.Config{ServiceName: "🍉"}),
+								Settings:     serial.ToTypedMessage(&grpc.Config{ServiceName: ""}),
 							},
 						},
 						SecurityType: serial.GetMessageType(&tls.Config{}),
@@ -799,7 +799,7 @@ func TestGRPCMultiMode(t *testing.T) {
 						TransportSettings: []*internet.TransportConfig{
 							{
 								ProtocolName: "grpc",
-								Settings:     serial.ToTypedMessage(&grpc.Config{ServiceName: "🍉", MultiMode: true}),
+								Settings:     serial.ToTypedMessage(&grpc.Config{ServiceName: "", MultiMode: true}),
 							},
 						},
 						SecurityType: serial.GetMessageType(&tls.Config{}),

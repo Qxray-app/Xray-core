@@ -5,9 +5,9 @@ import (
 	"crypto/rand"
 	"io"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/qxray-app/xray-core/common"
+	"github.com/qxray-app/xray-core/common/buf"
+	"github.com/qxray-app/xray-core/transport/internet"
 )
 
 type PacketReader interface {

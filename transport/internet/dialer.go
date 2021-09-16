@@ -3,8 +3,8 @@ package internet
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/common/session"
 )
 
 // Dialer is the interface for dialing outbound connections.

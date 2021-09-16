@@ -1,8 +1,8 @@
 package router
 
 import (
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/features/outbound"
+	"github.com/qxray-app/xray-core/common/dice"
+	"github.com/qxray-app/xray-core/features/outbound"
 )
 
 type BalancingStrategy interface {

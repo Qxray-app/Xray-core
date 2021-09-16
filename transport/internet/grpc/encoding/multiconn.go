@@ -7,9 +7,9 @@ import (
 
 	"google.golang.org/grpc/peer"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/common/signal/done"
+	"github.com/qxray-app/xray-core/common/buf"
+	"github.com/qxray-app/xray-core/common/net/cnc"
+	"github.com/qxray-app/xray-core/common/signal/done"
 )
 
 type MultiHunkConn interface {

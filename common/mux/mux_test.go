@@ -6,12 +6,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	. "github.com/xtls/xray-core/common/mux"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/qxray-app/xray-core/common"
+	"github.com/qxray-app/xray-core/common/buf"
+	. "github.com/qxray-app/xray-core/common/mux"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/common/protocol"
+	"github.com/qxray-app/xray-core/transport/pipe"
 )
 
 func readAll(reader buf.Reader) (buf.MultiBuffer, error) {

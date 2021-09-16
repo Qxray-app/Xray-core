@@ -1,9 +1,9 @@
 package serial
 
 import (
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/main/confloader"
+	"github.com/qxray-app/xray-core/core"
+	"github.com/qxray-app/xray-core/infra/conf"
+	"github.com/qxray-app/xray-core/main/confloader"
 	"io"
 )
 

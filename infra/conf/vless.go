@@ -8,13 +8,13 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/proxy/vless"
-	"github.com/xtls/xray-core/proxy/vless/inbound"
-	"github.com/xtls/xray-core/proxy/vless/outbound"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/common/protocol"
+	"github.com/qxray-app/xray-core/common/serial"
+	"github.com/qxray-app/xray-core/common/uuid"
+	"github.com/qxray-app/xray-core/proxy/vless"
+	"github.com/qxray-app/xray-core/proxy/vless/inbound"
+	"github.com/qxray-app/xray-core/proxy/vless/outbound"
 )
 
 type VLessInboundFallback struct {

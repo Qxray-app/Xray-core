@@ -8,8 +8,8 @@ package core
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	serial "github.com/xtls/xray-core/common/serial"
-	global "github.com/xtls/xray-core/transport/global"
+	serial "github.com/qxray-app/xray-core/common/serial"
+	global "github.com/qxray-app/xray-core/transport/global"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

@@ -7,14 +7,14 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/qxray-app/xray-core/common"
+	"github.com/qxray-app/xray-core/common/buf"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/common/net/cnc"
+	"github.com/qxray-app/xray-core/common/session"
+	"github.com/qxray-app/xray-core/transport/internet"
+	"github.com/qxray-app/xray-core/transport/internet/tls"
+	"github.com/qxray-app/xray-core/transport/pipe"
 	"golang.org/x/net/http2"
 )
 

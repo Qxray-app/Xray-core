@@ -3,14 +3,14 @@ package mtproto
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/crypto"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/qxray-app/xray-core/common"
+	"github.com/qxray-app/xray-core/common/buf"
+	"github.com/qxray-app/xray-core/common/crypto"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/common/session"
+	"github.com/qxray-app/xray-core/common/task"
+	"github.com/qxray-app/xray-core/transport"
+	"github.com/qxray-app/xray-core/transport/internet"
 )
 
 type Client struct {

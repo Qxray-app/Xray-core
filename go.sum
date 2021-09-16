@@ -176,8 +176,8 @@ github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/
 github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07/go.mod h1:kDXzergiv9cbyO7IOYJZWg1U88JhDg3PB6klq9Hg2pA=
 github.com/viant/assertly v0.4.8/go.mod h1:aGifi++jvCrUaklKEKT0BU95igDNaqkvz+49uaYMPRU=
 github.com/viant/toolbox v0.24.0/go.mod h1:OxMCG57V0PXuIP2HNQrtJf2CjqdmbrOx5EkMILuUhzM=
-github.com/xtls/go v0.0.0-20201118062508-3632bf3b7499 h1:QHESTXtfgc1ABV+ArlbPVqUx9Ht5I0dDkYhxYoXFxNo=
-github.com/xtls/go v0.0.0-20201118062508-3632bf3b7499/go.mod h1:5TB2+k58gx4A4g2Nf5miSHNDF6CuAzHKpWBooLAshTs=
+github.com/qxray-app/go v0.0.0-20201118062508-3632bf3b7499 h1:Ur45OKpIrGs85sN6I6iBghQsxnr2k4qLlw1biLRiyrM=
+github.com/qxray-app/go v0.0.0-20201118062508-3632bf3b7499/go.mod h1:ImQy//FumnqgNAd3O6Oj0iSYVPirXZn+M39DN1S1j50=
 go.opencensus.io v0.18.0/go.mod h1:vKdFvxhtzZ9onBp9VKHK8z/sRpBMnKAsufL7wlDrCOA=
 go.starlark.net v0.0.0-20210312235212-74c10e2c17dc h1:pVkptfeOTFfx+zXZo7HEHN3d5LmhatBFvHdm/f2QnpY=
 go.starlark.net v0.0.0-20210312235212-74c10e2c17dc/go.mod h1:t3mmBBPzAVvK0L0n1drDmrQsJ8FoIx4INCqVMTr/Zo0=

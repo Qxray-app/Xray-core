@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/qxray-app/xray-core/common"
+	"github.com/qxray-app/xray-core/common/buf"
+	"github.com/qxray-app/xray-core/infra/conf"
+	"github.com/qxray-app/xray-core/infra/conf/serial"
+	"github.com/qxray-app/xray-core/main/commands/base"
 	"google.golang.org/protobuf/proto"
 )
 

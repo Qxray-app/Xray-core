@@ -8,14 +8,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol/tls/cert"
-	"github.com/xtls/xray-core/testing/servers/tcp"
-	"github.com/xtls/xray-core/transport/internet"
-	. "github.com/xtls/xray-core/transport/internet/http"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/qxray-app/xray-core/common"
+	"github.com/qxray-app/xray-core/common/buf"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/common/protocol/tls/cert"
+	"github.com/qxray-app/xray-core/testing/servers/tcp"
+	"github.com/qxray-app/xray-core/transport/internet"
+	. "github.com/qxray-app/xray-core/transport/internet/http"
+	"github.com/qxray-app/xray-core/transport/internet/tls"
 )
 
 func TestHTTPConnection(t *testing.T) {

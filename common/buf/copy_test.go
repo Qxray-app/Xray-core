@@ -7,9 +7,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/testing/mocks"
+	"github.com/qxray-app/xray-core/common/buf"
+	"github.com/qxray-app/xray-core/common/errors"
+	"github.com/qxray-app/xray-core/testing/mocks"
 )
 
 func TestReadError(t *testing.T) {

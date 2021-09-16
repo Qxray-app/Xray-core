@@ -8,8 +8,8 @@ package dns
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	router "github.com/xtls/xray-core/app/router"
-	net "github.com/xtls/xray-core/common/net"
+	router "github.com/qxray-app/xray-core/app/router"
+	net "github.com/qxray-app/xray-core/common/net"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

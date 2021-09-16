@@ -13,10 +13,10 @@ import (
 	"golang.org/x/crypto/chacha20poly1305"
 	"golang.org/x/crypto/hkdf"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/crypto"
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/qxray-app/xray-core/common"
+	"github.com/qxray-app/xray-core/common/buf"
+	"github.com/qxray-app/xray-core/common/crypto"
+	"github.com/qxray-app/xray-core/common/protocol"
 )
 
 // MemoryAccount is an account type converted from Account.

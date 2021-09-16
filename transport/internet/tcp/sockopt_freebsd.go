@@ -3,8 +3,8 @@
 package tcp
 
 import (
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/transport/internet"
 )
 
 // GetOriginalDestination from tcp conn

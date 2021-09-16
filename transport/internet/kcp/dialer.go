@@ -5,13 +5,13 @@ import (
 	"io"
 	"sync/atomic"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/qxray-app/xray-core/common"
+	"github.com/qxray-app/xray-core/common/buf"
+	"github.com/qxray-app/xray-core/common/dice"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/transport/internet"
+	"github.com/qxray-app/xray-core/transport/internet/tls"
+	"github.com/qxray-app/xray-core/transport/internet/xtls"
 )
 
 var (

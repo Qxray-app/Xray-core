@@ -3,7 +3,7 @@ package policy
 import (
 	"time"
 
-	"github.com/xtls/xray-core/features/policy"
+	"github.com/qxray-app/xray-core/features/policy"
 )
 
 // Duration converts Second to time.Duration.

@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol/udp"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport"
-	. "github.com/xtls/xray-core/transport/internet/udp"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/qxray-app/xray-core/common"
+	"github.com/qxray-app/xray-core/common/buf"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/common/protocol/udp"
+	"github.com/qxray-app/xray-core/features/routing"
+	"github.com/qxray-app/xray-core/transport"
+	. "github.com/qxray-app/xray-core/transport/internet/udp"
+	"github.com/qxray-app/xray-core/transport/pipe"
 )
 
 type TestDispatcher struct {

@@ -8,17 +8,17 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	. "github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/protocol/http"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/features/routing"
-	routing_session "github.com/xtls/xray-core/features/routing/session"
+	. "github.com/qxray-app/xray-core/app/router"
+	"github.com/qxray-app/xray-core/common"
+	"github.com/qxray-app/xray-core/common/errors"
+	"github.com/qxray-app/xray-core/common/net"
+	"github.com/qxray-app/xray-core/common/platform"
+	"github.com/qxray-app/xray-core/common/platform/filesystem"
+	"github.com/qxray-app/xray-core/common/protocol"
+	"github.com/qxray-app/xray-core/common/protocol/http"
+	"github.com/qxray-app/xray-core/common/session"
+	"github.com/qxray-app/xray-core/features/routing"
+	routing_session "github.com/qxray-app/xray-core/features/routing/session"
 )
 
 func init() {

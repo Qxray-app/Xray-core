@@ -8,7 +8,7 @@ package router
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	net "github.com/xtls/xray-core/common/net"
+	net "github.com/qxray-app/xray-core/common/net"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

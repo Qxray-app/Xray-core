@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/qxray-app/xray-core/common/errors"
 )
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/qxray-app/xray-core/common/errors/errorgen
 
 var (
 	// ErrNoClue is for the situation that existing information is not enough to make a decision. For example, Router may return this error when there is no suitable route.
